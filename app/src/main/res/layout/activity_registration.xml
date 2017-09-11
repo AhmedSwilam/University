@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a2"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome To School"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="40dp" />
+
+    <EditText
+
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/edittexstyle"
+        android:id="@+id/userName"
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:layout_weight="0.05"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/edittexstyle"
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/edittexstyle"
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:hint="re-type password"
+        android:id="@+id/reTypePassword"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/edittexstyle"
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:id="@+id/email"
+        android:hint="E-mail"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/edittexstyle"
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="phone num"
+        android:id="@+id/phone"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="@drawable/edittexstyle"
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:hint="Gender"
+        android:id="@+id/gender"
+        android:layout_gravity="center"
+         />
+
+    <Button
+        android:id="@+id/regBtn"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:background="@drawable/buttonstyleselctor"
+        android:text="regist"
+        android:layout_gravity="center"
+        android:textColor="#fff" />
+
+</LinearLayout>

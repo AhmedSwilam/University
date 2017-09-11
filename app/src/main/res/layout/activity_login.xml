@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="80dp"
+        android:background="@drawable/a1"
+        android:layout_alignParentTop="true"
+
+        >
+
+        <EditText
+            android:id="@+id/userName"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittexstyle"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:hint="User Name" />
+        <EditText
+            android:id="@+id/password"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@drawable/edittexstyle"
+            android:layout_width="330dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:hint="Pasward"
+            android:layout_margin="23dp"
+            android:inputType="textPassword"/>
+
+        <CheckBox
+            android:id="@+id/keepMeLogin"
+            android:background="@drawable/edittexstyle"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:text="Keep me logged in"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_marginLeft="55dp"
+            />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonstyleselctor"
+            android:text="logen"
+            android:textColor="#fff"
+
+            />
+
+        <Button
+            android:id="@+id/regast"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonstyleselctor"
+            android:text="registration"
+            android:textColor="#fff"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

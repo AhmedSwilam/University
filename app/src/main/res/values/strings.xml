@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">University</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_registration">registration</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_listview">listview</string>
+</resources>
